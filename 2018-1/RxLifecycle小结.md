@@ -2,8 +2,8 @@
 　　最近项目中有一个推送语音通知的需求。开会的时候说不能使用第三方。因为我并不知道通知什么时候下发，所以只能不停的去请求后台下发语音通知的接口。  
 　　原本我是打算使用死循环去实现，但是觉得有点low。我想起来学习Rxjava的时候，有一个叫做定时器的东西。我决定使用Rxjava实现这个需求。毕竟Rxjava我只会用来与Retrofit结合起来用。一些其他的操作符都没有用过。这次有机会学习并使用新的操作符，当然不能错过。  
 　　
-
-	Observable.interval(2, 2, TimeUnit.SECONDS)//两秒发送一次
+```
+Observable.interval(2, 2, TimeUnit.SECONDS)//两秒发送一次
                 .doOnNext(object : Consumer<Long> {
                     override fun accept(t: Long?) {
                         Log.e(TAG, "第 " + t + " 次轮询");
@@ -15,6 +15,7 @@
             }
         })
 
+```
 
 　　上面的代码就是使用Rxjava的interval方法实现无限轮询的逻辑。  
 　　但是通过logcat中打印的log。我发现这个轮询在我退出当前界面的时候，并没停止！！！根据需求，当用户退出当前界面之后就不需要轮询这个接口了。而且这个现象说明我的程序出现了内存泄漏。内存泄漏这种东西我一向是零容忍。  
