@@ -1,8 +1,8 @@
-#Android树形控件　　
+<h1 align=center>Android树形控件</h1>　　
 
 
 　　
-![Aaron Swartz](https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/treeView.gif)　　
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-1/treeView.gif"/></div>　　
 
 　　最近公司需要做一个树形图的效果（就是上面gif图），本来应该是后台传给我已经分好层级的json数据。但是他们所谓的已经分好的层级就是每个元素都有id(结点本身)和pid（父结点）这两个属性。我竟无言以对。因为这两个属性确实分好了层级。
 
@@ -11,7 +11,7 @@
 	１.对数据进行排序（处理数据），如下图：
 
 　　
-<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/treeViewBlogPic.png"/></div>
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-1/treeViewBlogPic.png"/></div>
 
 　　
 	
