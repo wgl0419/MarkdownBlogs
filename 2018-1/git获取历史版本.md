@@ -9,7 +9,8 @@ git获取历史版本
 ```git
 git log
 ```
-
+<br/>
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-1/git_sha1.png"/></div>
 
 >　　２．找到你想提取的目标版本，复制对应的SHA值。
 
@@ -17,11 +18,16 @@ git log
 ```git
 git branch 新分支名 SHA值
 ```
+<br/>
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-1/git_new_branch.png"/></div>
+
 >　　４．切换到新的分支，操作如下：
 
 ```git
 git checkout 新分支名
 ```
+<br/>
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-1/git_checkout_branch.png"/></div>
 
 　　接下来，IDE(AndroidStudio)中的代码会自动切换成新分支中的代码,也就是历史版本的代码。
 　　在上述的操作中，我们新建了一个分支用来拉取历史版本并进行操作（修改代码）。而我们当前的代码，也就是主分支中的代码不受任何影响。
