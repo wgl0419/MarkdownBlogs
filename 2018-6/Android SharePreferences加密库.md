@@ -10,7 +10,17 @@ compile 'online.devliving:securedpreferencestore:latest_version'
 ```
 
 2.查看latest_version的版本
+<br>
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-6/sp2.png"/></div>
 
+<br>
+>sdk版本过低会出现如下报错，将最低版本改为18即可
+>
+
+
+<br>
+
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-6/sp1.png"/></div>
 
 3.在application中初始化
 ```
@@ -34,6 +44,9 @@ var username = prefStore?.getString(resources?.getString(R.string.sp_key_user_na
 
 6.查看文件
 
+<br>
+
+<div align=center><img  src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-6/sp3.png"/></div>
 ```
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
