@@ -17,6 +17,14 @@ Android开发规范
 <a href="https://github.com/JackyAndroid/AndroidInterview-Q-A">AndroidInterview-Q-A</a>
 
 
+bug搜索
+----------------
+<a href="https://samebug.io/">sameBug</a>
+<a href="https://stackoverflow.com/">stackoverflow</a>
+
+
+
+
 对话框
 ------------
 <a href="https://github.com/orhanobut/dialogplus">DialogPlus</a>
