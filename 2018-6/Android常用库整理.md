@@ -23,7 +23,9 @@ bug搜索
 <a href="https://stackoverflow.com/">stackoverflow</a>
 
 
-
+二维码相关
+--------------
+<a href="https://github.com/bingoogolapple/BGAQRCode-Android">BGAQRCode-Android</a>
 
 对话框
 ------------
