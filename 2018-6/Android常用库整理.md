@@ -27,6 +27,19 @@ bug搜索
 --------------
 <a href="https://github.com/bingoogolapple/BGAQRCode-Android">BGAQRCode-Android</a>
 
+
+按钮背景图相关 
+--------------
+<a href="https://github.com/JavaNoober/BackgroundLibrary">BackgroudLibrary</a>
+
+
+
+3D云标签  
+--------------
+<a href="https://github.com/misakuo/3dTagCloudAndroid">TagCloudView</a>
+
+
+
 对话框
 ------------
 <a href="https://github.com/orhanobut/dialogplus">DialogPlus</a>
