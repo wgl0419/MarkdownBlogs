@@ -11,6 +11,11 @@ Android开发规范
 <a href="https://github.com/GcsSloop/AndroidNote">安卓学习笔记</a>
 
 
+适配相关
+-------------
+<a href="http://tangpj.com/2018/09/29/calces-screen/?utm_source=gank.io&utm_medium=email">全自动的屏幕适配方案（基于SW方案）</a>
+
+
 
 面试相关
 ------------
