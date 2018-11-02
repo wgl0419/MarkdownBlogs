@@ -27,7 +27,30 @@ authority.sh           docs  gitblit.jar  gitblit-stop.sh  install-service-fedor
 ```
 >　　默认配置文件在data/gitblit.properties，可以根据需要自己修改。
 >　　这里我使用的是华为云的云服务器，华为云的所有端口好像默认是关闭的。如果需要使用要单独去配置：
->　　　　控制台->弹性云服务器->更多(对应服务器)->更改安全组->
+>　　　　控制台->弹性云服务器->更多(对应服务器)->更改安全组...具体看图
+
+
+
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-10/gitblit0.png"/></div>　
+
+
+</b>
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-10/gitblit1.png"/></div>　
+
+</b>
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-10/gitblit2.png"/></div>　
+
+</b>
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-10/gitblit4.png"/></div>
+
+</b>
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-10/gitblit5.png"/></div>　　
+
 
 ###启动gitlit服务:
 ```java
