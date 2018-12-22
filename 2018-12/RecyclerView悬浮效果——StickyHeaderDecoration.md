@@ -1,5 +1,9 @@
 RecyclerView悬浮效果——StickyHeaderDecoration
 =======
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-12/StickyHeaderDecoration_3.gif"/></div>　
+
+
 前言
 -------
 >　　悬浮效果之前也做过，但是呢做的很蹩脚。完全是找个博客，把代码一股脑粘到项目里面去。做出来的效果也很丑，有心优化一下。却发现无从下手，因为对原理一点也不懂。
@@ -35,7 +39,7 @@ RecyclerView悬浮效果——StickyHeaderDecoration
 >　　这里要感谢这张图的作者<a href="https://www.jianshu.com/u/769d3d3a9d4b">带心情去旅行</a>
 >　　正是这张图帮我理解了悬浮效果的原理
 
-
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-12/StickyHeaderDecoration_1.png"/></div>　
 
 
 2.为悬浮的item预留空间
@@ -72,6 +76,10 @@ RecyclerView悬浮效果——StickyHeaderDecoration
         }
     }
 ```
+
+
+
+<div align=center><img src="https://raw.githubusercontent.com/liangfeng093/MarkdownBlogs/master/res/2018-12/StickyHeaderDecoration_2.png"/></div>　
 
 
 3.绘制分组头部
